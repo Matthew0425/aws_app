@@ -9,6 +9,7 @@ REGION = "us-east-2"
 DBNAME = "postgres"
 
 
+
 app=Flask(__name__)
 @app.route("/")
 def index():
