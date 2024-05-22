@@ -27,5 +27,5 @@ def get_students():
     except Exception as e:
         print("Database connection failed due to {}".format(e))
         return("Database connection failed due to {}".format(e))
-    if __name__ == "__main__":
-        app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True)
