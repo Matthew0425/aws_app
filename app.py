@@ -1,12 +1,12 @@
 from flask import Flask
 import psycopg2
 #RDS connection parameters
-ENDPOINT=
-PORT=
-USER=
-PASSWORD =
-REGION=
-DBNAME=
+ENDPOINT= ""
+PORT= ""
+USER= ""
+PASSWORD = ""
+REGION= ""
+DBNAME= ""
 
 app=Flask(__name__)
 @app.route("/")
